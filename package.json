@@ -1,0 +1,29 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "Goalsetter tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackWahlig/MERN-Tutorial.git"
+  },
+  "author": "Jack Wahlig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackWahlig/MERN-Tutorial/issues"
+  },
+  "homepage": "https://github.com/JackWahlig/MERN-Tutorial#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
